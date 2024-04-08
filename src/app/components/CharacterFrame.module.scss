@@ -1,0 +1,8 @@
+@import "node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
+.character-text {
+    @include pixel-borders($corner-size: 2,
+            $border-size: 4px,
+            $border-color: #000000,
+            $border-inset-color: false);
+}

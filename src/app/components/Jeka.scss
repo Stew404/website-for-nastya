@@ -1,0 +1,10 @@
+@import "node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
+.jeka-pixel-border {
+    @include pixel-borders(
+        $corner-size: 2,
+        $border-size: 12px,
+        $border-color: #b782be,
+        $border-inset-color: false
+    );
+}

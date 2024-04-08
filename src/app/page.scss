@@ -1,0 +1,17 @@
+@import "node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
+.pixel-border {
+    @include pixel-borders(
+        $corner-size: 2,
+        $border-size: 4px,
+        $border-color: #ece1e1,
+        $border-inset-color: false
+    );
+}
+
+.onhover {
+    transition: transform 0.2s ease-out;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
