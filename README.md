@@ -1,1 +1,1 @@
-http://nastyahappysunboy.ru
+http://nastyadr.ru
